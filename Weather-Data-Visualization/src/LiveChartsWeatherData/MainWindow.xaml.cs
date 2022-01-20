@@ -10,7 +10,7 @@ namespace LiveChartsWeatherData
 {
     public partial class MainWindow : Window
     {
-        private static string filename = @"..\..\..\..\..\pond_data\Environmental_Data_Deep_Moor_2012.txt";
+        private static string filename = @"..\..\..\..\pond_data\Environmental_Data_Deep_Moor_2012.txt";
 
         public MainWindow()
         {

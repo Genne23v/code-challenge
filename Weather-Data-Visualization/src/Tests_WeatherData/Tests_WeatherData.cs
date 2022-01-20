@@ -11,7 +11,7 @@ namespace Tests_WeatherData
     [TestClass]
     public class Tests_WeatherData
     {
-        private static string filename = @"..\..\..\..\..\pond_data\Environmental_Data_Deep_Moor_2012.txt";
+        private static string filename = @"..\..\..\..\pond_data\Environmental_Data_Deep_Moor_2012.txt";
 
         #region Sample Data
         private static string sampleData =

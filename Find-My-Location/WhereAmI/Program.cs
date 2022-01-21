@@ -10,6 +10,7 @@ namespace WhereAmI
             Console.WriteLine("Starting GeoCoordinate Watcher...");
 
             var locationWatcher = new GeoCoordinateWatcher();
+
             locationWatcher.StatusChanged += (s, e) => 
             {
                 Console.WriteLine($"GeoCoordinateWatcher:StatusChanged:{e.Status}");
